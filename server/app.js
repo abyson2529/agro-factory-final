@@ -51,7 +51,7 @@ app.use(express.static('public'));
 app.use('/images', express.static('images'));
 app.use('/Controllers/Images', express.static('Controllers/Images'));
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
   console.log(`Listening on ${port}`);
