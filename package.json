@@ -2,7 +2,7 @@
   "name": "agrofactory",
   "version": "1.0.0",
   "description": "# Lessons",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "cd server && npm install  && cd ../client && npm install && npm run build",
     "start": "node server/app.js",
