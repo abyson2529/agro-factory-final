@@ -15,7 +15,7 @@ const Authroute = require("./routes/authentication");
 
 
 
-mongoose.connect("mongodb+srv://abysonmathew:Abyson123@cluster0.4rql7jo.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb://localhost:27017/S9MiniProject" || process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

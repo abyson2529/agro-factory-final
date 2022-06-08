@@ -1,9 +1,10 @@
 {
-  "name": "c",
+  "name": "server",
   "version": "1.0.0",
   "description": "> A REST API starter",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start":"nodemon app.js",
     "dev": "nodemon app.js",
     "generateAdmin": "node ./scripts/superAdminGenerator.js"
   },
